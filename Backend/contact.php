@@ -13,6 +13,6 @@ $message = $_POST['message'];
 
 // insert the data to the database
 $sql = "INSERT INTO bio_contact (id, name, email, message) VALUES ('0', '$name', '$email', '$message')";
-
+}
 $rs = mysqli_query($con, $sql);
 ?>
